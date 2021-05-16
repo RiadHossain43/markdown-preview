@@ -39,9 +39,7 @@ const Auth = (props) => {
     <>
       <div className="main-content" ref={mainContent}>
         <AuthNavbar />
-        <div className="header py-7 py-lg-8">
-          
-        </div>
+        <div className="header py-7 py-lg-8"></div>
         <Container className="mt--5 pb-5">
           <Row className="justify-content-center">
             <Switch>

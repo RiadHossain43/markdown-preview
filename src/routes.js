@@ -1,6 +1,6 @@
 import Index from "views/Index"
 import Login from "views/auth/Login";
-
+import Editor from "views/editor/Editor"
 var routes = [
   {
     path: "/index",
@@ -28,6 +28,14 @@ var routes = [
     name: "Login",
     icon: "ni ni-key-25",
     component: Login,
+    layout: "/auth",
+    sideDeactivate:true
+  },
+  {
+    path: "/editor",
+    name: "Editor",
+    icon: "ni ni-key-25",
+    component: Editor,
     layout: "/auth",
     sideDeactivate:true
   },
