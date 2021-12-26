@@ -5,7 +5,9 @@ const MarkDown = ({markdown}) => {
   return (
     <Row>
       <Col lg='10' className='mx-auto'>
-        <ReactMarkdown children={markdown}/>
+        <ReactMarkdown 
+          children={markdown}
+        />
       </Col>
     </Row>
   );
